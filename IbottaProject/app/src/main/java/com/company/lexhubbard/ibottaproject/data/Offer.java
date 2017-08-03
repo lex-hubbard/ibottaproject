@@ -18,24 +18,9 @@ public class Offer {
     @SerializedName("name")
     @Expose
     private String name;
-    @SerializedName("offer_tags")
-    @Expose
-    private List<Object> offerTags = null;
-    @SerializedName("promos")
-    @Expose
-    private List<Object> promos = null;
-    @SerializedName("purchase_type")
-    @Expose
-    private String purchaseType;
     @SerializedName("retailers")
     @Expose
     private List<Integer> retailers = null;
-    @SerializedName("type")
-    @Expose
-    private String type;
-    @SerializedName("url")
-    @Expose
-    private String url;
     @SerializedName("active")
     @Expose
     private Boolean active;
@@ -62,28 +47,8 @@ public class Offer {
         return name;
     }
 
-    public List<Object> getOfferTags() {
-        return offerTags;
-    }
-
-    public List<Object> getPromos() {
-        return promos;
-    }
-
-    public String getPurchaseType() {
-        return purchaseType;
-    }
-
     public List<Integer> getRetailers() {
         return retailers;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public String getUrl() {
-        return url;
     }
 
     public Boolean getActive() {
