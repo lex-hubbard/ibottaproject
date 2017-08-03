@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">IbottaProject</string>
+    <string name="active">ACTIVE</string>
+    <string name="inactive">INACTIVE</string>
 </resources>

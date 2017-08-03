@@ -50,104 +50,52 @@ public class Offer {
         return description;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
     public String getExpiration() {
         return expiration;
-    }
-
-    public void setExpiration(String expiration) {
-        this.expiration = expiration;
     }
 
     public String getLargeUrl() {
         return largeUrl;
     }
 
-    public void setLargeUrl(String largeUrl) {
-        this.largeUrl = largeUrl;
-    }
-
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public List<Object> getOfferTags() {
         return offerTags;
     }
 
-    public void setOfferTags(List<Object> offerTags) {
-        this.offerTags = offerTags;
-    }
-
     public List<Object> getPromos() {
         return promos;
-    }
-
-    public void setPromos(List<Object> promos) {
-        this.promos = promos;
     }
 
     public String getPurchaseType() {
         return purchaseType;
     }
 
-    public void setPurchaseType(String purchaseType) {
-        this.purchaseType = purchaseType;
-    }
-
     public List<Integer> getRetailers() {
         return retailers;
-    }
-
-    public void setRetailers(List<Integer> retailers) {
-        this.retailers = retailers;
     }
 
     public String getType() {
         return type;
     }
 
-    public void setType(String type) {
-        this.type = type;
-    }
-
     public String getUrl() {
         return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
     }
 
     public Boolean getActive() {
         return active;
     }
 
-    public void setActive(Boolean active) {
-        this.active = active;
-    }
-
     public Double getAmount() {
         return amount;
     }
 
-    public void setAmount(Double amount) {
-        this.amount = amount;
-    }
-
     public Integer getId() {
         return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
     }
 
 }

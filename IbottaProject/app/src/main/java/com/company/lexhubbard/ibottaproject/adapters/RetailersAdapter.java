@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.company.lexhubbard.ibottaproject.R;
-import com.company.lexhubbard.ibottaproject.activities.MainActivity;
+import com.company.lexhubbard.ibottaproject.activities.RetailersActivity;
 import com.company.lexhubbard.ibottaproject.data.Retailer;
 import com.squareup.picasso.Picasso;
 
@@ -28,7 +28,7 @@ public class RetailersAdapter extends RecyclerView.Adapter {
 
     public RetailersAdapter(Context context, List<Retailer> retailerList) {
         mContext = context;
-        mListener = (MainActivity) context;
+        mListener = (RetailersActivity) context;
         mRetailers = retailerList;
     }
 
@@ -58,7 +58,7 @@ public class RetailersAdapter extends RecyclerView.Adapter {
 
         String iconUrl = retailer.getIconUrl();
         if (!TextUtils.isEmpty(iconUrl)) {
-            Picasso.with(mContext).load(retailer.getIconUrl()).into(retailerViewHolder.icon);
+            Picasso.with(mContext).load(iconUrl).into(retailerViewHolder.icon);
         }
     }
 
